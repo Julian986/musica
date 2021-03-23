@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0; }
+  * body {
+    background-color: black;
+    /* Hover */ }
+    * body .todo {
+      width: 100%;
+      height: 300px; }
+    * body .aumento {
+      width: 300px;
+      height: 300px;
+      font-size: 200px;
+      padding: 100px;
+      background-color: red; }
+    * body .audio {
+      visibility: hidden; }
+    * body .Comenzar {
+      background-color: greenyellow;
+      position: absolute;
+      left: 31%;
+      top: 23%;
+      width: 120px;
+      height: 50px;
+      cursor: pointer; }
+    * body .cerrarSesion {
+      color: white;
+      font-size: 50px;
+      text-decoration: none; }
+    * body .cerrarSesion:hover {
+      text-decoration: underline; }
+    * body .pnivel1 {
+      color: blueviolet;
+      position: absolute;
+      /*left: 790px;
+      top: 228px;
+      left: 41%;
+       top: 24%;*/
+      left: 40%;
+      top: 23%;
+      font-size: 30px;
+      display: inline-block; }
+    * body .tuTurno {
+      font-size: 30px;
+      color: blue;
+      position: absolute;
+      /*left: 990px;
+      top: 228px;*/
+      top: 10%;
+      left: 50%;
+      font-size: 30px; }
+    * body .contenedor {
+      width: 600px;
+      height: 300px;
+      background-color: coral;
+      position: absolute;
+      left: 30%;
+      top: 30%;
+      margin-right: 15%;
+      display: inline-block; }
+    * body .contenedor div {
+      display: inline-block;
+      width: 130px;
+      height: 120px;
+      margin-left: 10px;
+      margin-top: 10px; }
+    * body .num1 {
+      background-color: brown;
+      opacity: 0.6; }
+    * body .num2 {
+      background-color: cyan;
+      opacity: 0.6; }
+    * body .num3 {
+      background-color: darkblue;
+      opacity: 0.6; }
+    * body .num4 {
+      background-color: darkmagenta;
+      opacity: 0.6; }
+    * body .num5 {
+      background-color: olive;
+      opacity: 0.6; }
+    * body .num6 {
+      background-color: #c70f7a;
+      opacity: 0.6; }
+    * body .num7 {
+      background-color: indigo;
+      opacity: 0.6; }
+    * body .num8 {
+      background-color: green;
+      opacity: 0.6; }
+    * body .num1:hover {
+      background-color: brown;
+      opacity: 1.0; }
+    * body .num2:hover {
+      background-color: cyan;
+      opacity: 1.0; }
+    * body .num3:hover {
+      background-color: darkblue;
+      opacity: 1.0; }
+    * body .num4:hover {
+      background-color: darkmagenta;
+      opacity: 1.0; }
+    * body .num5:hover {
+      background-color: olive;
+      opacity: 1.0; }
+    * body .num6:hover {
+      background-color: #c70f7a;
+      opacity: 1.0; }
+    * body .num7:hover {
+      background-color: indigo;
+      opacity: 1.0; }
+    * body .num8:hover {
+      background-color: green;
+      opacity: 1.0; }
+    * body .num1Activado {
+      background-color: brown;
+      opacity: 1.0;
+      border: 2px solid #09f36a; }
+    * body .num2Activado {
+      background-color: cyan;
+      opacity: 1.0;
+      border: 2px solid #09f36a; }
+    * body .num3Activado {
+      background-color: darkblue;
+      opacity: 1.0;
+      border: 2px solid #09f36a; }
+    * body .num4Activado {
+      background-color: darkmagenta;
+      opacity: 1.0;
+      border: 2px solid #09f36a; }
+    * body .num5Activado {
+      background-color: olive;
+      opacity: 1.0;
+      border: 2px solid #09f36a; }
+    * body .num6Activado {
+      background-color: #c70f7a;
+      opacity: 1.0;
+      border: 2px solid #09f36a; }
+    * body .num7Activado {
+      background-color: indigo;
+      opacity: 1.0;
+      border: 2px solid #09f36a; }
+    * body .num8Activado {
+      background-color: green;
+      opacity: 1.0;
+      border: 2px solid #09f36a; }
+    @media screen and (max-width: 1415px) {
+      * body .pnivel1 {
+        position: absolute;
+        left: 45%; } }
+    @media screen and (max-width: 1015px) {
+      * body .contenedor {
+        position: absolute;
+        left: 25%; }
+      * body .pnivel1 {
+        left: 49%; } }
+    @media screen and (max-width: 890px) {
+      * body .contenedor {
+        position: absolute;
+        left: 20%; } }
+    @media screen and (max-width: 800px) {
+      * body .contenedor {
+        position: absolute;
+        left: 15%; } }
+    @media screen and (max-width: 735px) {
+      * body .contenedor {
+        position: absolute;
+        left: 10%; } }
+    @media screen and (max-width: 700px) {
+      * body .contenedor {
+        position: absolute;
+        left: 4%; }
+      * body .pnivel1 {
+        position: absolute;
+        left: 52%; } }
+    @media screen and (max-width: 550px) {
+      * body .pnivel1 {
+        position: absolute;
+        left: 59%; } }
+    @media screen and (max-width: 450px) {
+      * body .pnivel1 {
+        position: absolute;
+        left: 64%; } }
+    @media screen and (max-width: 380px) {
+      * body .pnivel1 {
+        position: absolute;
+        left: 71%; } }
+
+/*# sourceMappingURL=luces.css.map */

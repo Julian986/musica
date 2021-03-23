@@ -1,0 +1,236 @@
+*{  margin: 0;
+    padding: 0;
+    body{
+            background-color: black;
+
+
+            
+            
+            .todo {
+                        width: 100%;
+                        height: 300px;
+
+            }
+            
+            
+         
+          
+
+            .aumento {
+                width: 300px;
+                height: 300px;
+                font-size: 200px;
+                padding: 100px;
+                background-color: red;
+            }
+
+            .audio{
+                visibility: hidden;
+            }
+            .Comenzar{
+                        background-color: greenyellow;
+                        position: absolute;
+
+                     
+                       // left: 31%;
+                        left: 31%;
+                        top: 23%;
+
+                        width: 120px;
+                        height: 50px;
+                        cursor: pointer;
+            }
+
+            .cerrarSesion{
+                color: white;
+                font-size: 50px;
+                text-decoration: none;
+            }
+            
+            .cerrarSesion:hover{
+                text-decoration:underline;
+            }
+
+            .pnivel1{ color: blueviolet;
+                position: absolute;
+
+                /*left: 790px;
+                top: 228px;
+                left: 41%;
+                 top: 24%;*/
+                 left: 40%;
+                
+                 top: 23%;
+                    
+            font-size: 30px;
+            display: inline-block;
+        }
+
+            .tuTurno {
+                font-size: 30px;
+                color: blue;
+                position: absolute;
+
+                /*left: 990px;
+                top: 228px;*/
+                
+                top: 10%;
+               left: 50%;
+
+            font-size: 30px;
+            }
+
+            .contenedor{
+                width: 600px;
+                height: 300px;
+                background-color: coral;
+               
+                position: absolute;
+                left: 30%;
+                top: 30%;
+
+               margin-right: 15%;
+                
+                
+                display: inline-block;
+                
+            
+            
+                
+
+            
+        }
+            
+    
+        
+
+            .contenedor div{
+                display: inline-block;
+                width: 130px;
+                height: 120px;
+                
+                //float: left;
+                //border: 2px solid yellow;
+                margin-left: 10px;
+                margin-top: 10px;
+                
+            }
+
+
+            .num1{ background-color: brown; opacity: 0.6;}
+            .num2{ background-color: cyan;  opacity: 0.6;}
+            .num3{  background-color: darkblue; opacity: 0.6;}
+            .num4{  background-color:darkmagenta;  opacity: 0.6;}
+            .num5{  background-color: olive;  opacity: 0.6;}
+            .num6{  background-color: rgb(199, 15, 122);  opacity: 0.6;}
+            .num7{  background-color: indigo;  opacity: 0.6;}
+            .num8{  background-color: green;  opacity: 0.6;}
+    
+    /* Hover */
+            .num1:hover{ background-color: brown; opacity: 1.0;}
+            .num2:hover{ background-color: cyan;  opacity: 1.0;}
+            .num3:hover {  background-color: darkblue; opacity: 1.0;}
+            .num4:hover{  background-color:darkmagenta; opacity: 1.0; }
+            .num5:hover{  background-color: olive;  opacity: 1.0;}
+            .num6:hover{  background-color: rgb(199, 15, 122); opacity: 1.0;}
+            .num7:hover{  background-color: indigo; opacity: 1.0; }
+            .num8:hover{  background-color: green; opacity: 1.0;}
+            
+            .num1Activado{ background-color: brown; opacity: 1.0;
+                border: 2px solid rgb(9, 243, 106);}
+            .num2Activado{ background-color: cyan;  opacity: 1.0;
+                border: 2px solid rgb(9, 243, 106);}
+            .num3Activado {  background-color: darkblue; opacity: 1.0;
+                border: 2px solid rgb(9, 243, 106);}
+            .num4Activado{  background-color:darkmagenta; opacity: 1.0;
+                border: 2px solid rgb(9, 243, 106); }
+            .num5Activado{  background-color: olive;  opacity: 1.0;
+                border: 2px solid rgb(9, 243, 106);}
+            .num6Activado{  background-color: rgb(199, 15, 122); opacity: 1.0;
+                border: 2px solid rgb(9, 243, 106);}
+            .num7Activado{  background-color: indigo; opacity: 1.0; 
+                border: 2px solid rgb(9, 243, 106);}
+            .num8Activado{  background-color: green; opacity: 1.0;
+                border: 2px solid rgb(9, 243, 106);}
+            
+
+                @media screen and (max-width:1415px) {
+                        .pnivel1{
+                            position: absolute;
+                            left: 45%;
+                        }
+                    
+                }
+                
+                
+                @media screen and (max-width:1015px) {
+                    .contenedor{
+                                        position: absolute;
+                                        left: 25%;
+                    }
+                    .pnivel1{
+                        left: 49%;
+                    }
+            }
+
+            @media screen and (max-width:890px) {
+                .contenedor{
+                                    position: absolute;
+                                    left: 20%;
+                }
+        }
+        @media screen and (max-width:800px) {
+            .contenedor{
+                                position: absolute;
+                                left: 15%;
+            }
+    }
+
+    @media screen and (max-width:735px) {
+        .contenedor{
+                            position: absolute;
+                            left: 10%;
+        }
+}
+
+@media screen and (max-width:700px) {
+    .contenedor{
+                        position: absolute;
+                        left: 4%;
+    }
+
+    .pnivel1{
+                    position: absolute;
+                    left: 52%;
+    }
+}
+
+
+        @media screen and (max-width:550px) {
+                .pnivel1{
+                                position: absolute;
+                                left: 59%;
+                }
+        }
+
+        @media screen and (max-width:450px) {
+            .pnivel1{
+                            position: absolute;
+                            left: 64%;
+            }
+    }
+
+    @media screen and (max-width:380px) {
+        .pnivel1{
+                        position: absolute;
+                        left: 71%;
+        }
+}
+
+
+
+    }
+
+ 
+
+}

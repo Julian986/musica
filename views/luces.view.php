@@ -20,14 +20,12 @@
             <source src="WhatsApp Audio 2020-10-07 at 5.00.38 PM.mpeg">
 
                 </audio>
-        
+        <h2>Bienvenido</h2>
 
           
         
-
-                    
             <input class="Comenzar" type="button" value="Comenzar" id="Comenzar">  <p id="pnivel1" class="pnivel1"> </p>
-        
+           
 
         <div class="contenedor">
         
@@ -45,7 +43,7 @@
         
         </div>
 
-       
+        <a class="cerrarSesion" href="../Formulario/cerrarSesion.php">Cerrar Sesion</a> 
 
 <br>
 <br>
